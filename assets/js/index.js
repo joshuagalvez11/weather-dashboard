@@ -144,7 +144,6 @@ function searchCity(city, lat, long) {
         });
 }
 
-//searchCoords(testCity);
 
 startBtn.addEventListener("click", function (){
     var search = document.querySelector('#city').value;
