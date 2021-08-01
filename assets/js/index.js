@@ -52,7 +52,7 @@ function searchCoords(city) {
 
     displayRecentSeaches();
 
-    fetch('http://api.openweathermap.org/geo/1.0/direct?q=' + city + '&appid=4d9d20ab6631195c297f666e81854443')
+    fetch('https://api.openweathermap.org/geo/1.0/direct?q=' + city + '&appid=4d9d20ab6631195c297f666e81854443')
         .then(response => response.json())
         .then(data => {
             console.log(data);
